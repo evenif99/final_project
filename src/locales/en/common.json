@@ -1,0 +1,111 @@
+{
+    "nav": {
+        "lectures": "Lectures",
+        "community": "Community",
+        "mentoring": "Mentoring",
+        "certifications": "Certifications",
+        "events": "Events",
+        "careers": "Careers",
+        "support": "Support"
+    },
+    "banner": {
+        "1": {
+            "title": "Start Your Language Journey",
+            "subtitle": "Learn 50+ languages with native speakers",
+            "cta": "Explore Courses"
+        },
+        "2": {
+            "title": "Join Our Community",
+            "subtitle": "Connect with learners from around the world",
+            "cta": "Join Now"
+        },
+        "3": {
+            "title": "1:1 Mentoring Available",
+            "subtitle": "Get personalized guidance from expert tutors",
+            "cta": "Find a Mentor"
+        },
+        "prev": "Previous banner",
+        "next": "Next banner",
+        "goTo": "Go to banner {{index}}"
+    },
+    "myCourses": {
+        "title": "My Courses",
+        "viewAll": "View All",
+        "play": "Play course",
+        "completed": "Completed",
+        "progress": "Progress"
+    },
+    "course": {
+        "1": {
+            "title": "Korean for Beginners",
+            "instructor": "Kim Minji"
+        },
+        "2": {
+            "title": "Japanese N3 Grammar",
+            "instructor": "Tanaka Yuki"
+        },
+        "3": {
+            "title": "Spanish Conversation",
+            "instructor": "Maria Garcia"
+        },
+        "4": {
+            "title": "Mandarin HSK4",
+            "instructor": "Li Wei"
+        }
+    },
+    "recommended": {
+        "title": "Recommended For You",
+        "more": "More",
+        "students": "students"
+    },
+    "recommendedCourse": {
+        "recommend": {
+            "1": {
+                "title": "French Pronunciation Mastery",
+                "instructor": "Pierre Dupont"
+            },
+            "2": {
+                "title": "German Business Communication",
+                "instructor": "Hans Mueller"
+            },
+            "3": {
+                "title": "Italian for Travel",
+                "instructor": "Sofia Romano"
+            }
+        }
+    },
+    "tags": {
+        "beginner": "Beginner",
+        "advanced": "Advanced",
+        "speaking": "Speaking",
+        "business": "Business",
+        "travel": "Travel"
+    },
+    "popularCourses": {
+        "title": "Popular Courses",
+        "viewAll": "View All",
+        "students": "students",
+        "course": {
+            "1": {
+                "title": "Complete Korean TOPIK II",
+                "instructor": "Park Jisoo"
+            },
+            "2": {
+                "title": "English IELTS 8.0 Strategy",
+                "instructor": "John Smith"
+            },
+            "3": {
+                "title": "Japanese JLPT N2 Complete",
+                "instructor": "Yamada Kenji"
+            },
+            "4": {
+                "title": "Chinese HSK5 Speaking",
+                "instructor": "Zhang Wei"
+            },
+            "5": {
+                "title": "Spanish DELE B2 Prep",
+                "instructor": "Carlos Martinez"
+            }
+        }
+    }
+}

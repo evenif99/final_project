@@ -28,19 +28,19 @@ export type RouteHandle = {
 // 네비게이션 바 상단 섹션 타입 정의
 export type TopSection = {
     key: SectionKey
-    label: string
+    labelKey: string
     icon: React.ComponentType<{ className?: string }>
 }
 
 // Nav bar 상단 섹션들
 export const TOP_SECTIONS: TopSection[] = [
-    { key: "lectures", label: "강의", icon: BookOpen },
-    { key: "community", label: "커뮤니티", icon: Users },
-    { key: "mentoring", label: "멘토링", icon: MessageCircle },
-    { key: "certifications", label: "자격증", icon: Award },
-    { key: "events", label: "이벤트", icon: Calendar },
-    { key: "careers", label: "커리어", icon: Briefcase },
-    { key: "support", label: "지원", icon: HelpCircle },
+    { key: "lectures", labelKey: "nav.lectures", icon: BookOpen },
+    { key: "community", labelKey: "nav.community", icon: Users },
+    { key: "mentoring", labelKey: "nav.mentoring", icon: MessageCircle },
+    { key: "certifications", labelKey: "nav.certifications", icon: Award },
+    { key: "events", labelKey: "nav.events", icon: Calendar },
+    { key: "careers", labelKey: "nav.careers", icon: Briefcase },
+    { key: "support", labelKey: "nav.support", icon: HelpCircle },
 ]
 
 

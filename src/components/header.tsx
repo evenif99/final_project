@@ -1,14 +1,18 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useTranslation } from "react-i18next"
 import { Search, User, Menu, X, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import i18n from "i18next"
 import { Input } from "@/components/ui/input"
 import { cn } from "@/lib/utils"
 import ModeToggle from "@/components/theme-module"
 import { useNavigate } from "react-router-dom"
+import LanguageSwitcher from "@/components/language-switcher"
 
 export default function Header() {
+  const { t } = useTranslation()
   const [isVisible, setIsVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
   const [isLoggedIn, setIsLoggedIn] = useState(false)
@@ -52,7 +56,7 @@ export default function Header() {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
               <Input
                 type="search"
-                placeholder="Search courses, lectures, mentors..."
+                placeholder={t("search.placeholder")}
                 className="pl-10 bg-secondary border-border"
               />
             </div>
@@ -61,19 +65,20 @@ export default function Header() {
           {/* Right Actions - Desktop */}
           <div className="hidden md:flex items-center gap-3">
             <ModeToggle />
+            <LanguageSwitcher />
 
             {isLoggedIn ? (
               <Button variant="ghost" size="sm" className="gap-2" onClick={() => nav("/my-page")}>
                 <User className="w-4 h-4" />
-                My Page
+                {t("My Page")}
               </Button>
             ) : (
               <>
                 <Button variant="ghost" size="sm" onClick={() => setIsLoggedIn(true)}>
-                  Login
+                  {t("Login")}
                 </Button>
                 <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                  Sign Up
+                  {t("Sign Up")}
                 </Button>
               </>
             )}
@@ -93,6 +98,7 @@ export default function Header() {
               <Input type="search" placeholder="Search..." className="pl-10 bg-secondary" />
             </div>
             <div className="flex flex-col gap-2">
+              <LanguageSwitcher />
               {isLoggedIn ? (
                 <Button variant="ghost" className="justify-start gap-2">
                   <User className="w-4 h-4" />

@@ -3,6 +3,7 @@ import type { SectionKey, TopSection } from "@/components/constants/types"
 import { NAV_DROPDOWN } from "@/components/constants/nav-dropdown"
 import MegaDropdownPanel from "@/components/dropdown" // ✅ 패널 컴포넌트 경로로 맞추기
 import { useMegaDropdownController } from "@/components/dropdown" // ✅ 방금 만든 훅
+import { useTranslation } from "react-i18next"
 
 type Props = {
   active: SectionKey
@@ -11,6 +12,7 @@ type Props = {
 }
 
 export default function NavigationMenu({ active, onClick, sections }: Props) {
+  const { t } = useTranslation()
   const {
     open,
     hoverKey,
@@ -47,7 +49,7 @@ export default function NavigationMenu({ active, onClick, sections }: Props) {
                 )}
               >
                 <Icon className="w-4 h-4" />
-                {item.label}
+                {t(item.labelKey)}
               </button>
             )
           })}

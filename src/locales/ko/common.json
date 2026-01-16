@@ -1,0 +1,111 @@
+{
+    "nav": {
+        "lectures": "강의",
+        "community": "커뮤니티",
+        "mentoring": "멘토링",
+        "certifications": "자격증",
+        "events": "이벤트",
+        "careers": "커리어",
+        "support": "지원"
+    },
+    "banner": {
+        "1": {
+            "title": "언어 학습 여정을 시작하세요",
+            "subtitle": "원어민과 함께 50개 이상의 언어를 배워보세요",
+            "cta": "강의 둘러보기"
+        },
+        "2": {
+            "title": "커뮤니티에 참여하세요",
+            "subtitle": "전 세계 학습자들과 연결해보세요",
+            "cta": "지금 참여"
+        },
+        "3": {
+            "title": "1:1 멘토링 제공",
+            "subtitle": "전문 튜터에게 맞춤형 가이드를 받아보세요",
+            "cta": "멘토 찾기"
+        },
+        "prev": "이전 배너",
+        "next": "다음 배너",
+        "goTo": "{{index}}번째 배너로 이동"
+    },
+    "myCourses": {
+        "title": "내 강의",
+        "viewAll": "전체 보기",
+        "play": "강의 재생",
+        "completed": "완료",
+        "progress": "진행률"
+    },
+    "course": {
+        "1": {
+            "title": "초급 한국어",
+            "instructor": "김민지"
+        },
+        "2": {
+            "title": "일본어 N3 문법",
+            "instructor": "다나카 유키"
+        },
+        "3": {
+            "title": "스페인어 회화",
+            "instructor": "마리아 가르시아"
+        },
+        "4": {
+            "title": "중국어 HSK4",
+            "instructor": "리웨이"
+        }
+    },
+    "recommended": {
+        "title": "추천 강의",
+        "more": "더 보기",
+        "students": "수강생"
+    },
+    "recommendedCourse": {
+        "recommend": {
+            "1": {
+                "title": "프랑스어 발음 마스터",
+                "instructor": "피에르 뒤퐁"
+            },
+            "2": {
+                "title": "독일어 비즈니스 커뮤니케이션",
+                "instructor": "한스 뮐러"
+            },
+            "3": {
+                "title": "여행을 위한 이탈리아어",
+                "instructor": "소피아 로마노"
+            }
+        }
+    },
+    "tags": {
+        "beginner": "초급",
+        "advanced": "고급",
+        "speaking": "회화",
+        "business": "비즈니스",
+        "travel": "여행"
+    },
+    "popularCourses": {
+        "title": "인기 강의",
+        "viewAll": "전체 보기",
+        "students": "수강생",
+        "course": {
+            "1": {
+                "title": "한국어 TOPIK II 완성",
+                "instructor": "박지수"
+            },
+            "2": {
+                "title": "영어 IELTS 8.0 전략",
+                "instructor": "존 스미스"
+            },
+            "3": {
+                "title": "일본어 JLPT N2 완성",
+                "instructor": "야마다 겐지"
+            },
+            "4": {
+                "title": "중국어 HSK5 회화",
+                "instructor": "장웨이"
+            },
+            "5": {
+                "title": "스페인어 DELE B2 대비",
+                "instructor": "카를로스 마르티네스"
+            }
+        }
+    }
+}
